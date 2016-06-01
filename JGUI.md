@@ -23,7 +23,7 @@ GUI开发的一般步骤
 7. 设置窗体可见____setVisible(true);
 
 图形界面如下：
-![window](img/01.png)
+![window](img/01.PNG)
 
 ```java
 class MyFrame extends JFrame {
@@ -90,7 +90,7 @@ class MyFrame extends JFrame {
 7参： 默认选项
 
 图形界面如下：
-![](img/02a.png)
+![](img/02a.PNG)
 (1)确认对话框
 ![](img/02b.png)
 (2)组合对话框
