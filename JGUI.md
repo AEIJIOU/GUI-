@@ -23,6 +23,7 @@ GUI开发的一般步骤
 7. 设置窗体可见____setVisible(true);
 
 图形界面如下：
+
 ![window](img/01.PNG)
 
 ```java
@@ -90,13 +91,21 @@ class MyFrame extends JFrame {
 7参： 默认选项
 
 图形界面如下：
+
 ![](img/02a.PNG)
+
 (1)确认对话框
-![](img/02b.png)
+
+![](img/02b.PNG)
+
 (2)组合对话框
-![](img/02c.png)
+
+![](img/02c.PNG)
+
 (3)消息对话框
-![](img/02d.png)
+
+![](img/02d.PNG)
+
 (4)输入对话框
 
 ```java
@@ -172,8 +181,10 @@ public class L09_02JOpDemo {
 >3. 在和某个类对象同一个目录下的图片对象-返回Image
 
 图形界面如下：
-![](img/03a.png)
-![](img/03b.png)
+
+![](img/03a.PNG)
+
+![](img/03b.PNG)
 
 ```java
 public class J09_03Loginqq extends JFrame{
@@ -260,7 +271,8 @@ public class WindowUtils {
 - 菜单项可以添加注册监听器，设置菜单快捷键
 
 界面如下：
-![](img/04a.png)
+
+![](img/04a.PNG)
 
 *代码见2.工具栏*
 
@@ -272,7 +284,8 @@ public class WindowUtils {
 - setToolTipText()显示提示信息
 
 界面如下：
-![](img/04b.png)
+
+![](img/04b.PNG)
 
 ```java
 public class L09_04_Admin extends JFrame implements ActionListener{
@@ -366,7 +379,9 @@ public class L09_04_Admin extends JFrame implements ActionListener{
 1. **java.awt提供的布局管理器类包括FlowLayout(流式布局)、BorderLayout(边界布局)、GridLayout(网格布局)、CardLayout(卡片布局)、null(空布局)--通过setBounds(int,int,int,int)来实现布局(左上点横坐标,左上点纵坐标,宽度,高度)**
 
 界面如下：
-![](img/05a.png)
+
+![](img/05a.PNG)
+
 1流式布局
 
 ```java
@@ -385,7 +400,8 @@ public class L09_06FlowLayoutDemo {
 }
 ```
 
-![](img/05b.png)
+![](img/05b.PNG)
+
 2边界布局
 
 ```java
@@ -406,7 +422,8 @@ public class L09_07BorderLayoutDemo {
 
 ```
 
-![](img/05c.png)
+![](img/05c.PNG)
+
 3网格布局
 
 ```java
@@ -426,7 +443,8 @@ public class L09_08GridLayoutDemo {
 
 ```
 
-![](img/05d.png)
+![](img/05d.PNG)
+
 4卡片布局
 
 ```java
@@ -495,9 +513,13 @@ public class L09_09CardLayoutDemo extends JFrame implements ActionListener{
 - 利用匿名内部类作为监听器类实现事件处理
 
 界面：
-![](img/06a.png)
+
+![](img/06a.PNG)
+
 点击前
-![](img/06b.png)
+
+![](img/06b.PNG)
+
 点击后
 
 ```java
