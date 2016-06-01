@@ -1,2 +1,2 @@
 # GUI-
-Just the bases of GUI
+Just the bases details of GUI
